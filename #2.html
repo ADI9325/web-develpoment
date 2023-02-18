@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after pesudo selectors</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .navigation {
+            display: flex
+        }
+
+        li {
+            list-style: none;
+            padding: 23px;
+            margin: 12px;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            margin: 3px;
+            flex-direction: column;
+            /* align-items: center; */
+            border: 2px solid red;
+            height: 250px;
+            justify-content: center;
+            padding: 23px;
+        }
+        h1{
+            font-size: 4rem;
+        }
+
+        /* section::before {
+            content: "This is content";
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item" id="item-1">Home</li>
+                <li class="item" id="item-2">About</li>
+                <li class="item" id="item-3"> Services</li>
+                <li class="item" id="item-4">Contact Us </li>
+            </ul>
+        </nav>
+        <section>
+            <h3>welcome to Coding World</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sequi explicabo quas sunt corporis,
+                officiis voluptatum libero rerum perspiciatis maxime. Tempore consequuntur, et quidem, eius debitis
+                sapiente placeat saepe incidunt, perferendis commodi at aliquam.</p>
+        </section>
+    </header>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributs and child selectors </title>
+    <style>
+        .container{
+            margin: auto;
+            width: 233px;
+            display: block;
+
+        }
+        input{
+            display: block;
+        }
+        a[target]{
+            font-size: 34px;
+            color: rgb(14, 13, 14);
+        }
+
+        li:nth-child(2n+0){
+            color: aqua;
+        }
+        li:nth-child(odd){
+            background-color: rgb(163, 112, 112);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1><a href="http://google.com" target="_blank">Go to google</a></h1>
+        <form action="" class="form control">
+            <input type="text" placeholder="Enter your name">
+            <input type="password" placeholder="Enter your password">
+            <input type="submit" value="submit">
+        </form>
+
+        <ul>
+            <li class="item" id="item-1">Item-1</li>
+            <li class="item" id="item-2">Item-2</li>
+            <li class="item" id="item-3">Item-3</li>
+            <li class="item" id="item-4">Item-4</li>
+            <li class="item" id="item-5">Item-5</li>
+        </ul>
+    </div>
+    
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some more selectors</title>
+    <style>
+        h1{
+            background-color: rgb(72, 171, 171);
+            color: black;
+            font-weight: bold;
+            text-align: center;
+
+        }
+        div > p{
+            color: yellow;
+            font-weight: bold;
+        }
+        div+p{
+            background-color: gray;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>This is heading</h1>
+    <div class="container">
+        <div class="row">
+            <p>This is paragraph</p>
+        </div>
+        <p>This is another paragraph </p>
+    </div>
+    <p>This is outermost paragraph</p>
+    
+</body>
+</html> -->
